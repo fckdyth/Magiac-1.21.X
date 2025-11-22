@@ -17,8 +17,8 @@ public class ModItems {
 
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
-                .register(entries -> {
-                    entries.add(SUSPICIOUS_SUBSTANCE);
+                .register(itemGroup -> {
+                    itemGroup.add(SUSPICIOUS_SUBSTANCE);
                 });
     }
 }
