@@ -10,6 +10,7 @@ import net.ywoswho.magiac.Magiac;
 
 public class ModItems {
     public static final Item SUSPICIOUS_SUBSTANCE = register(new Item(new Item.Settings()), "suspicious_substance");
+    public static final Item GRAVEL_PICKAXE = register(new Item(new Item.Settings()), "gravel_pickaxe");
 
     public static Item register(Item item, String id) {
         return Registry.register(Registries.ITEM, Identifier.of(Magiac.MOD_ID, id), item);
@@ -19,6 +20,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
                 .register(itemGroup -> {
                     itemGroup.add(SUSPICIOUS_SUBSTANCE);
+                    itemGroup.add(GRAVEL_PICKAXE);
                 });
     }
 }

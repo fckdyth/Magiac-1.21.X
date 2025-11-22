@@ -28,6 +28,7 @@ public class ModItemGroups {
 
         ItemGroupEvents.modifyEntriesEvent(MAGIAC_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(ModItems.SUSPICIOUS_SUBSTANCE);
+            itemGroup.add(ModItems.GRAVEL_PICKAXE);
             itemGroup.add(ModBlocks.CONDENSED_DIRT);
         });
     }

@@ -1,7 +1,8 @@
 {
   "itemGroup.magiac": "Magiac",
 
-  "item.magiac.suspicious_substance": "Suspicious Substance",
+  "block.magiac.condensed_dirt": "Condensed Dirt",
 
-  "block.magiac.condensed_dirt": "Condensed Dirt"
+  "item.magiac.suspicious_substance": "Suspicious Substance",
+  "item.magiac.gravel_pickaxe": "Gravel Pickaxe"
 }
