@@ -2,6 +2,7 @@ package net.ywoswho.magiac;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.ywoswho.magiac.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,8 @@ public class Magiac implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Welcome to Magiac Mod!");
+
+		ModItems.initialize();
 	}
 }
