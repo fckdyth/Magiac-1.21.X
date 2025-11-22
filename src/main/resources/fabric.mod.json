@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "magiac",
+	"version": "${version}",
+	"name": "magiac",
+	"description": "Magiac Mod by Ywoswho",
+	"authors": [
+		"Ywoswho"
+	],
+	"license": "MIT",
+	"icon": "assets/magiac/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ywoswho.magiac.Magiac"
+		],
+		"fabric-datagen": [
+			"net.ywoswho.magiac.MagiacDataGenerator"
+		],
+		"client": [
+			"net.ywoswho.magiac.MagiacClient"
+		]
+	},
+	"mixins": [
+		"magiac.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
